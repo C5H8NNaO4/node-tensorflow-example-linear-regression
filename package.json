@@ -1,14 +1,14 @@
 {
-  "name": "test",
+  "name": "node-tensorflow-example-linear-regression",
   "version": "1.0.0",
-  "description": "",
+  "description": "Everything you need to get started with Babel 7. - Includes *nodemon* as dependency",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "build": "babel src --out-dir lib",
     "start": "nodemon --watch src --exec \"npm run build && babel-node lib/index.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "moritz.roessler@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -17,5 +17,23 @@
     "nodemon": "^1.19.0",
     "@babel/preset-env": "^7.4.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C5H8NNaO4/node-tensorflow-example-linear-regression.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "example",
+    "linear-regression",
+    "celsius",
+    "fahrenheit"
+  ],
+  "bugs": {
+    "url": "https://github.com/C5H8NNaO4/node-tensorflow-example-linear-regression/issues"
+  },
+  "homepage": "https://github.com/C5H8NNaO4/node-tensorflow-example-linear-regression#readme"
 }

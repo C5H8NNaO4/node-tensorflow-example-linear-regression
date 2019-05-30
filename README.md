@@ -9,15 +9,7 @@ Installs all the depencies needed to compile your project + nodemon.
  
  Runs `babel src --out-dir lib`
 
-## Babel node + nodemon
+## Run
 `npm start`
 
-Runs `nodemon --exec babel-node src/index.js`
-
-### Dependencies
-@babel/cli
-@babel/core
-@babel/node
-@babel/preset-env
-
-nodemon
+Runs `nodemon --watch src --exec \"npm run build && babel-node lib/index.js\"`
